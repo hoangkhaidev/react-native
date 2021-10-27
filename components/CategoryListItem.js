@@ -4,19 +4,26 @@ import {
     Text,
     View,
     StyleSheet,
+    TouchableOpacity,
+    TouchableOpacityBase,
+    Alert
 } from 'react-native';
-import Meat from '../assets/meat.jpg';
+import Meat from './../assets/meat.jpg';
 
-export default function CategoryListItem(props) {
-    return <View style={styles.container}>
-        <Text style={styles.title} >CategoryListItem</Text>
-        <Image style={styles.categoryImage} source={Meat} />
-    </View>
+export default function CategoryListItem({ category, onPress }) {
+    return (
+        <TouchableOpacity activeOpacity={0.5} onPress={onPress} >
+            <View style={styles.container}>
+                <Text style={styles.title} >{category.name}</Text>
+                <Image style={styles.categoryImage} source={Meat} />
+            </View>
+        </TouchableOpacity>
+    );
 }
 
 const styles = StyleSheet.create({
     categoryImage: {
-        width: 150,
+        width: 100,
         height: 100,
     },
     container: {
