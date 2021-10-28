@@ -1,27 +1,34 @@
 import React, { useState } from 'react';
 import { StyleSheet, FlatList } from 'react-native';
 import CategoryListItem from '../components/CategoryListItem';
+import axios from 'axios';
+import { useEffect } from 'react';
+import { useCallback } from 'react';
 
 export default function Home({ navigation }) {
-  const initCategories = [
-    {
-      id: 1, name: 'Meat'
-    },
-    {
-      id: 2, name: 'Fish'
-    },
-    {
-      id: 3, name: 'Fruits'
+  const [categories, setCategories] = useState([]);
+
+  const fetchData = useCallback(async () => {
+    const response = await axios.get('http://localhost:3000/categories');
+    try {
+      const dataJSON = response.data;
+      setCategories(dataJSON);
+    } catch (error) {
+      console.log(error)
     }
-  ];
-  const [categories, setCategories] = useState(initCategories);
+  }, []);
+
+  useEffect(() => {
+    fetchData();
+  }, [fetchData]);
 
   const renderItem = ({ item }) => (
     <CategoryListItem 
         category={item} 
         onPress={() => {
             return navigation.navigate('Category', {
-                categoryName : item.name
+                categoryName : item.name,
+                categoryId: item.id
             });
         }}
     />

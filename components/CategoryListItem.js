@@ -6,14 +6,13 @@ import {
     StyleSheet,
     TouchableOpacity,
 } from 'react-native';
-import Meat from './../assets/meat.png';
 
 export default function CategoryListItem({ category, onPress }) {
     return (
         <TouchableOpacity activeOpacity={0.5} onPress={onPress} >
             <View style={styles.container}>
                 <Text style={styles.title} >{category.name}</Text>
-                <Image style={styles.categoryImage} source={Meat} />
+                <Image style={styles.categoryImage} source={{ uri: category.images.url }} />
             </View>
         </TouchableOpacity>
     );

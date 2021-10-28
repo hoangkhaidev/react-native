@@ -1,0 +1,178 @@
+{
+    "categories": [
+        {
+            "id": 1,
+            "name": "Meat",
+            "images": {
+                "url": "https://icons.iconarchive.com/icons/google/noto-emoji-food-drink/1024/32380-cut-of-meat-icon.png"
+            }
+        },
+        {
+            "id": 2,
+            "name": "Fish",
+            "images": {
+                "url": "https://toppng.com/uploads/preview/fish-icon-fish-icon-transparent-11553436331pcqtkoghc3.png"
+            }
+        },
+        {
+            "id": 3,
+            "name": "Fruits",
+            "images": {
+                "url": "https://previews.123rf.com/images/yupiramos/yupiramos1804/yupiramos180412496/99614376-basket-with-fruits-icon-vector-illustration-design.jpg"
+            }
+        },
+        {
+            "id": 4,
+            "name": "Seafood",
+            "images": {
+                "url": "https://images.all-free-download.com/images/graphicthumb/seafood_icon_lobster_sketch_red_handdrawn_design_6851709.jpg"
+            }
+        }
+    ],
+    "products": [
+        {
+            "id": 1,
+            "images": {
+                "url": "http://t1.gstatic.com/licensed-image?q=tbn:ANd9GcRCFytrowB4zPyFeM4q39MWxX6dFFabp4vy5j5q8dJrlXn2zTYu9-asD2X0G7rxIy_MXkc0FQTU42q4pdsjGhw"
+            },
+            "name": "Beef",
+            "price": 50000,
+            "category": 1
+        },
+        {
+            "id": 2,
+            "images": {
+                "url": "https://seaspimex.com.vn/wp-content/uploads/2020/11/timthumb7416.png"
+            },
+            "name": "Salmon",
+            "price": 100000,
+            "category": 2
+        },
+        {
+            "id": 3,
+            "images": {
+                "url": "https://media.istockphoto.com/photos/red-apple-with-leaf-isolated-on-white-background-picture-id185262648?b=1&k=20&m=185262648&s=170667a&w=0&h=2ouM2rkF5oBplBmZdqs3hSOdBzA4mcGNCoF2P0KUMTM="
+            },
+            "name": "Apple",
+            "price": 70000,
+            "category": 3
+        },
+        {
+            "id": 4,
+            "images": {
+                "url": "http://t1.gstatic.com/licensed-image?q=tbn:ANd9GcRxTUOUgpXFtiYnhDwLTqoLV5G3O8eVIXpRsmqdtuKUtys1-WDBLNX6AFISuE651pqbaNvXML_B7lQPkYd6Kp8"
+            },
+            "name": "Mango",
+            "price": 30000,
+            "category": 3
+        },
+        {
+            "id": 5,
+            "images": {
+                "url": "https://vinmec-prod.s3.amazonaws.com/images/20200506_163912_296631_thit_ga_2.max-800x800.jpg"
+            },
+            "name": "Chicken",
+            "price": 30000,
+            "category": 1
+        },
+        {
+            "id": 6,
+            "images": {
+                "url": "https://cdn.tgdd.vn/2021/05/CookProduct/0-1200x676-2.jpg"
+            },
+            "name": "Pork",
+            "price": 50000,
+            "category": 1
+        },
+        {
+            "id": 7,
+            "images": {
+                "url": "https://lh3.googleusercontent.com/proxy/c_nyZTD_Nia3geHoaxypTkE0_bocVrqYDfoX8hHxMErtmfGctmVU8A_BsGHbbIOaITUXEtrEQ24wEoEVwIi9opUDWqDd767lOjJao0edsr0M"
+            },
+            "name": "Lamb",
+            "price": 100000,
+            "category": 1
+        },
+        {
+            "id": 8,
+            "images": {
+                "url": "https://vinmec-prod.s3.amazonaws.com/images/20200518_130625_293320_screenshot_15898071.max-1800x1800.png"
+            },
+            "name": "Human Fish",
+            "price": 90000,
+            "category": 2
+        },
+        {
+            "id": 9,
+            "images": {
+                "url": "https://khuyennongtphcm.com/wp-content/uploads/2020/08/ca-loc.jpg"
+            },
+            "name": "Banana Fish",
+            "price": 120000,
+            "category": 2
+        },
+        {
+            "id": 10,
+            "images": {
+                "url": "https://lh3.googleusercontent.com/proxy/A6Al4tOTFg3S9h81ZPJjVYZkzWWfvDSEvw_JZqLcZLzh0kcGJGnqvJCOrUk7L-RX9ubFVj9E-SkWQq--RwqLdZAgNFosfE9alRMDiiOrLO_C6-DZc9Wn3bSaVp_lf64"
+            },
+            "name": "Linh Fish",
+            "price": 30000,
+            "category": 2
+        },
+        {
+            "id": 11,
+            "images": {
+                "url": "https://hoaquafuji.com/storage/app/media/gia-nho-sua-han-quoc-fuji-7.jpg"
+            },
+            "name": "Green Grapes",
+            "price": 70000,
+            "category": 3
+        },
+        {
+            "id": 12,
+            "images": {
+                "url": "https://vinmec-prod.s3.amazonaws.com/images/20210319_064535_531791_an-chom-chom.max-800x800.jpg"
+            },
+            "name": "Chom Chom",
+            "price": 60000,
+            "category": 3
+        },
+        {
+            "id": 13,
+            "images": {
+                "url": "https://vcdn-suckhoe.vnecdn.net/2019/07/29/tom-hum-bong-hap-1000x600-1564-7326-3102-1564376063.png"
+            },
+            "name": "Cotton Lobster",
+            "price": 700000,
+            "category": 4
+        },
+        {
+            "id": 14,
+            "images": {
+                "url": "https://product.hstatic.net/1000030244/product/cua_-_2019-09-28t141525.492_f632118e34f046af85badbe4bf0c7537.png"
+            },
+            "name": "King Crab",
+            "price": 1000000,
+            "category": 4
+        },
+        {
+            "id": 15,
+            "images": {
+                "url": "https://www.hoidaubepaau.com/wp-content/uploads/2019/06/bao-ngu.jpg"
+            },
+            "name": "Abalone",
+            "price": 500000,
+            "category": 4
+        },
+        {
+            "id": 16,
+            "images": {
+                "url": "https://file.hstatic.net/200000273197/file/bach_tuoc_do_thom_ngon_eb71203c60514ffcbcae14114499304f_grande.jpg"
+            },
+            "name": "Octopus",
+            "price": 300000,
+            "category": 4
+        }
+    ]
+}
