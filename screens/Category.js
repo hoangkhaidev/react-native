@@ -52,6 +52,7 @@ const styles = StyleSheet.create({
   wrapper: {
     flex: .5,
     paddingHorizontal: 8,
+    paddingTop: 10
   }
   
 });

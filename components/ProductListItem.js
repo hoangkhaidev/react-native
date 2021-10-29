@@ -11,6 +11,11 @@ export default function ProductListItem({ product }) {
     const formatPrice = (number) => {
         return `${number.toLocaleString()}đ`;
     }
+
+    const onAddToCart = (item) => {
+        console.log(item)
+    }
+
     return (
         <View style={styles.shadow} >
             <View style={styles.container}>
@@ -20,7 +25,7 @@ export default function ProductListItem({ product }) {
                     <View style={styles.priceRow}>
                         <Text style={styles.price}>{formatPrice(product.price)}</Text>
                         <TouchableOpacity>
-                            <Text style={styles.cartText}>MUA +</Text>
+                            <Text style={styles.cartText} onPress={() => onAddToCart(product)} >MUA +</Text>
                         </TouchableOpacity>
                     </View>
                 </View>
@@ -49,7 +54,7 @@ const styles = StyleSheet.create({
     container: {
         borderRadius: 4,
         backgroundColor: '#fff',
-        marginBottom: 20,
+        marginBottom: 10,
         overflow: 'hidden',
     },
     info: {
